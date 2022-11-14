@@ -1,0 +1,19 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>OTP Verification</title>  
+</head>  
+  
+<body>  
+  
+<form action = "/inchargevalidate" method="post">  
+  
+<h4> One-time password has been sent to the email id. Please check the email {{email}} for the verification.</h4>  
+<input type="text" value="{{email}}" name="email" readonly>
+Enter OTP: <input type="text" name="otp">  
+  
+<input type="submit" value="Submit">  
+  
+</form>  
+</body>  
+</html>  
