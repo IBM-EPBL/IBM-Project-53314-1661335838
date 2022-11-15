@@ -1,0 +1,42 @@
+body{
+  background-image: url('https://model001.s3.jp-tok.cloud-object-storage.appdomain.cloud/background.jpg');
+  background-size: 100% 100%;
+}
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:rgb(255, 255, 255);
+  text-align: center; 
+  text-decoration: none;
+}
+
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  /* text-align:;  */
+  background-color: none;
+  border-collapse: collapse; 
+  border: none;
+  border-radius: 15px;
+}
+table.inner{
+  border: 0px
+}
+
+form{
+	margin-top :30px;
+	width: 35rem;
+	height: 35rem;
+	display: flex;
+	flex-direction: column;
+	background: rgba(255,255,255,0.06);
+	box-shadow: 0 8px 32px 0 rgba(31,38,135,.40);
+	border-radius: 35px;
+	border: 1px solid rgba(255,255,255,0.3);
+	
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin sign-up</title>
+	  <link rel="stylesheet" href="../static/adminreg.css" />
+  </head>
+  <body>
+    <h1>Admin sign-up</h1>
+    <form action='post'>
+      <fieldset>
+        <label>Enter Your Hospital/ Instition Name: <input type="text" name="hospital-name" required /></label>
+        <label>Enter Register-Id: <input type="text" name="registered-id" required /></label>
+        <label>Enter Your Email: <input type="email" name="email" required /></label>
+        <label>Enter User-id: <input type="text" name="User-id" required /></label>
+        <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <input type="radio" name="account-type" class="inline" /> Hospital &nbsp;&nbsp; <input type="radio" name="account-type" class="inline" /> Medical Institution
+        <label>
+          <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="#">terms and conditions</a>
+			  </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
